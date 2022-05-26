@@ -4,7 +4,6 @@ class SmartPhone {
     this.batteryPower = batteryPower;
     this.price = price;
   }
-
   displayFeatures() {
     return this.ram + "\n" + this.batteryPower + "\n" + this.price;
   }
